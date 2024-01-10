@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import Nav from "./nav/Nav.js";
 import About from "./about/About";
 import Skills from "./skills/Skills";
@@ -10,11 +10,17 @@ import Background from "./background/Background.js";
 import PlayerStats from "./playerStats/PlayerStats.js";
 
 const App = () => {
-  
+  // Get the current location
+  const location = useLocation();
+
+  // Conditionally render the About component based on the route
+  const renderAbout = location.pathname === "/about";
+
   return (
-    <Router>
+    <>
       <Nav />
-      <About/>
+      {/* Conditionally render the About component */}
+      {renderAbout && <About />}
       <Background />
       <Routes>
         {/* Redirect the root path to "/about" */}
@@ -25,7 +31,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <PlayerStats />
-    </Router>
+    </>
   );
 };
 
