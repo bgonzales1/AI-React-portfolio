@@ -10,6 +10,7 @@ import Background from "./background/Background.js";
 import PlayerStats from "./playerStats/PlayerStats.js";
 
 const App = () => {
+  
   return (
     <Router>
       <Nav />
