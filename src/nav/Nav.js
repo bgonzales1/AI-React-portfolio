@@ -20,7 +20,8 @@ export default function Nav() {
       case "/contact":
         return "nav-contact";
       default:
-        return "";
+        // If location.pathname is an empty string, default to "nav-about"
+      return location.pathname === "" ? "nav-about" : "";
     }
   };
 
@@ -63,12 +64,11 @@ export default function Nav() {
       {renderNavLink(
         "/",
         astronautHelmet,
-        "astronaut helmet icon",
-        "nav-about"
+        "astronaut helmet icon", "nav-about"
       )}
       {renderNavLink("/skills", deadEye, "deadEye icon", "nav-skills")}
       {renderNavLink("/projects", stack, "stack icon", "nav-projects")}
-      {renderNavLink("contact", envelope, "envelope icon", "nav-contact")}
+      {renderNavLink("/contact", envelope, "envelope icon", "nav-contact")}
     </nav>
   );
 }
