@@ -16,7 +16,7 @@ const App = () => {
       <Nav />
       <Background />
       <Routes>
-      <Route path="https://bgonzales1.github.io/react-portfolio-v2-main-2/" element={<Navigate to="/" />} />
+      <Route path="https://bgonzales1.github.io/react-portfolio-v2-main-2/" element={<Navigate to="https://bgonzales1.github.io/" />} />
         <Route path="/" element={<About/>} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<Projects />} />
