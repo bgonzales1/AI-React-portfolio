@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AI-React-portfolio/static/css/main.7ddfcaa7.css",
-    "main.js": "/AI-React-portfolio/static/js/main.ab51663a.js",
+    "main.js": "/AI-React-portfolio/static/js/main.d1b32ba1.js",
     "static/media/bg-universe.mp4": "/AI-React-portfolio/static/media/bg-universe.8f0c7b0507588a3d538a.mp4",
     "static/media/fallback-image.png": "/AI-React-portfolio/static/media/fallback-image.d7075bb6fc934f311561.png",
     "static/media/avatar-image.png": "/AI-React-portfolio/static/media/avatar-image.6f46d1c139e9c2ef6ebf.png",
@@ -10,10 +10,10 @@
     "static/media/project-1.png": "/AI-React-portfolio/static/media/project-1.4627f8019adef630c2cc.png",
     "index.html": "/AI-React-portfolio/index.html",
     "main.7ddfcaa7.css.map": "/AI-React-portfolio/static/css/main.7ddfcaa7.css.map",
-    "main.ab51663a.js.map": "/AI-React-portfolio/static/js/main.ab51663a.js.map"
+    "main.d1b32ba1.js.map": "/AI-React-portfolio/static/js/main.d1b32ba1.js.map"
   },
   "entrypoints": [
     "static/css/main.7ddfcaa7.css",
-    "static/js/main.ab51663a.js"
+    "static/js/main.d1b32ba1.js"
   ]
 }
